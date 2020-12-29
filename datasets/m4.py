@@ -26,7 +26,7 @@ import pandas as pd
 import patoolib
 from tqdm import tqdm
 
-from common.http_utils import download, url_file_name
+from common-utils import download, url_file_name
 from common.settings import DATASETS_PATH
 
 TRAINING_DATASET_URL = 'https://www.m4.unic.ac.cy/wp-content/uploads/2017/12/M4DataSet.zip'
